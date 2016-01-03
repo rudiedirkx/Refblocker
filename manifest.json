@@ -1,0 +1,19 @@
+{
+	"name": "Referrer blocker",
+	"description": "Blocks HTTP Referrers from other domains.",
+	"version": "1.0",
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"*://*/*"
+	],
+	"background": {
+		"scripts": [ "refblocker.background.js" ]
+	},
+
+	"icons": {
+		"128": "images/128x128.png"
+	},
+	"manifest_version": 2
+}
